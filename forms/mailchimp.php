@@ -3,11 +3,11 @@
 
     // Log in to MailChimp and create an API key under:
     // [ Account ] -> [ Extras ] -> [ API Keys ]
-    $apiKey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-us8';
+    $apiKey = '84b448473b48daa6e2846a8f7954dbda-us19';
     
     // Find your list ID by opening the list in MailChimp, then:
     // [ Settings ] -> [ List name and defaults ]
-    $listId = 'abcdefghij';
+    $listId = '57cfea5b36';
     
     // Form data to use as email field
     // (The name="..." value from the email field in your HTML form)
@@ -38,7 +38,7 @@
     
     // Google reCAPTCHA
     // If your form is configured with a reCAPTCHA widget, this secret key will be used to validate with Google's server.
-    $recaptchaSecretKey        = 'insert-your-recaptcha-secret-key-here';
+    $recaptchaSecretKey        = '6Leif98UAAAAAAOBvd6OZVfP3Ps4JEIUy__Ru5qm';
     $recaptchaErrorMessage     = 'There was a problem verifying the Google reCaptcha.  Please try again.';
 
     require('vendor/mediumrare/mailchimp_subscribe.php');

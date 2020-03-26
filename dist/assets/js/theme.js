@@ -138,7 +138,9 @@
      * ------------------------------------------------------------------------
      */
 
-    var Countdown = /*#__PURE__*/function () {
+    var Countdown =
+    /*#__PURE__*/
+    function () {
       function Countdown(element) {
         // The current countdown element
         this.element = element;
@@ -418,7 +420,9 @@
      * ------------------------------------------------------------------------
      */
 
-    var Countup = /*#__PURE__*/function () {
+    var Countup =
+    /*#__PURE__*/
+    function () {
       function Countup(element) {
         var $element = $(element); // Grab data-attributes
 
@@ -708,7 +712,9 @@
      * ------------------------------------------------------------------------
      */
 
-    var DropdownGrid = /*#__PURE__*/function () {
+    var DropdownGrid =
+    /*#__PURE__*/
+    function () {
       function DropdownGrid(element) {
         this.ticking = false;
         this.isActive = false;
@@ -3826,7 +3832,9 @@
      * ------------------------------------------------------------------------
      */
 
-    var Flatpickr = /*#__PURE__*/function () {
+    var Flatpickr =
+    /*#__PURE__*/
+    function () {
       function Flatpickr(element) {
         // The current flatpickr element
         this.element = element; // const $element = $(element);
@@ -3954,7 +3962,9 @@
      * ------------------------------------------------------------------------
      */
 
-    var Recaptchav2 = /*#__PURE__*/function () {
+    var Recaptchav2 =
+    /*#__PURE__*/
+    function () {
       function Recaptchav2(element) {
         this.element = element;
         this.form = this.getForm();
@@ -4194,7 +4204,9 @@
      * ------------------------------------------------------------------------
      */
 
-    var FormEmail = /*#__PURE__*/function () {
+    var FormEmail =
+    /*#__PURE__*/
+    function () {
       function FormEmail(element) {
         this.form = element;
         this.action = this.form.getAttribute(Attribute.ACTION) || Default.FORM_ACTION; // Returns an object containing the feedback
@@ -4529,7 +4541,9 @@
      * ------------------------------------------------------------------------
      */
 
-    var IonRangeSlider = /*#__PURE__*/function () {
+    var IonRangeSlider =
+    /*#__PURE__*/
+    function () {
       function IonRangeSlider(element) {
         var $element = $(element);
         this.options = $element.data();
@@ -4791,7 +4805,9 @@
      */
 
 
-    var IsotopeWrapper = /*#__PURE__*/function () {
+    var IsotopeWrapper =
+    /*#__PURE__*/
+    function () {
       function IsotopeWrapper(element) {
         var $element = $(element);
         var attributes = $element.data();
@@ -5285,7 +5301,9 @@
      * ------------------------------------------------------------------------
      */
 
-    var Map = /*#__PURE__*/function () {
+    var Map =
+    /*#__PURE__*/
+    function () {
       function Map(element) {
         // The current map element
         this.element = element;
@@ -5531,7 +5549,9 @@
      * ------------------------------------------------------------------------
      */
 
-    var OverlayNav = /*#__PURE__*/function () {
+    var OverlayNav =
+    /*#__PURE__*/
+    function () {
       function OverlayNav(element) {
         this.ticking = false; // Used to debounce resize event
 
@@ -5783,7 +5803,9 @@
      */
 
 
-    var ReadingPosition = /*#__PURE__*/function () {
+    var ReadingPosition =
+    /*#__PURE__*/
+    function () {
       function ReadingPosition(element) {
         this.progressBars = progressBars;
         this.element = element;
@@ -6017,7 +6039,9 @@
      * ------------------------------------------------------------------------
      */
 
-    var Sticky = /*#__PURE__*/function () {
+    var Sticky =
+    /*#__PURE__*/
+    function () {
       function Sticky(element) {
         var $element = $(element);
         var stickyData = $element.data(Selector.DATA_ATTR);
@@ -7298,7 +7322,9 @@
      * ------------------------------------------------------------------------
      */
 
-    var TwitterFetcher = /*#__PURE__*/function () {
+    var TwitterFetcher =
+    /*#__PURE__*/
+    function () {
       function TwitterFetcher(element) {
         var $element = $(element);
         this.element = element;
@@ -7479,7 +7505,9 @@
      * ------------------------------------------------------------------------
      */
 
-    var TypedText = /*#__PURE__*/function () {
+    var TypedText =
+    /*#__PURE__*/
+    function () {
       function TypedText(element) {
         // The current map element
         this.element = element;
